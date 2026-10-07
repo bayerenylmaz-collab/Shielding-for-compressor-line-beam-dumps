@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.out
+*.err
+*.log
+*.ran
+*.seed
+*.bnn
+*.bnx
+*.bnt
+*.lis
+fluka_*/

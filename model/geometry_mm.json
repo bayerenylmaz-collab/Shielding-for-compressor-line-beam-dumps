@@ -1,0 +1,718 @@
+{
+  "units": "mm",
+  "transform": {
+    "x": "(native_y - 446.666667)/10",
+    "y": "(1533.5 - native_x)/10",
+    "z": "(native_z - 1067.5)/10"
+  },
+  "beam": {
+    "energy_MeV": 20,
+    "reference_current_uA": 1,
+    "source_z_mm": -10,
+    "pencil_beam_assumption": true
+  },
+  "dump": {
+    "center_native_mm": [
+      133.5,
+      446.666667
+    ],
+    "front_native_z_mm": 1027.5,
+    "back_native_z_mm": 1157.5,
+    "core_radius_mm": 55,
+    "fin_envelope_radius_mm": 65,
+    "cone_mouth_radius_mm": 30,
+    "cone_bottom_radius_mm": 2.5,
+    "cone_depth_mm": 40,
+    "lip_front_native_z_mm": 1023.5,
+    "lip_outer_radius_mm": 41,
+    "lip_inner_radius_mm": 35
+  },
+  "structural_parts": [
+    {
+      "stl_component": 0,
+      "bounds_native_mm": [
+        [
+          302.5,
+          121.667,
+          492.5
+        ],
+        [
+          312.5,
+          771.667,
+          1382.5
+        ]
+      ],
+      "hollow_axis": null,
+      "wall_mm": null
+    },
+    {
+      "stl_component": 1,
+      "bounds_native_mm": [
+        [
+          623.5,
+          131.667,
+          592.5
+        ],
+        [
+          633.5,
+          761.667,
+          1282.5
+        ]
+      ],
+      "hollow_axis": null,
+      "wall_mm": null
+    },
+    {
+      "stl_component": 2,
+      "bounds_native_mm": [
+        [
+          7.5,
+          131.667,
+          619.5
+        ],
+        [
+          17.5,
+          761.667,
+          1249.5
+        ]
+      ],
+      "hollow_axis": null,
+      "wall_mm": null
+    },
+    {
+      "stl_component": 3,
+      "bounds_native_mm": [
+        [
+          312.5,
+          96.667,
+          487.5
+        ],
+        [
+          1448.5,
+          196.667,
+          587.5
+        ]
+      ],
+      "hollow_axis": 0,
+      "wall_mm": 5
+    },
+    {
+      "stl_component": 4,
+      "bounds_native_mm": [
+        [
+          312.5,
+          96.667,
+          1287.5
+        ],
+        [
+          1448.5,
+          196.667,
+          1387.5
+        ]
+      ],
+      "hollow_axis": 0,
+      "wall_mm": 5
+    },
+    {
+      "stl_component": 5,
+      "bounds_native_mm": [
+        [
+          312.5,
+          696.667,
+          487.5
+        ],
+        [
+          1448.5,
+          796.667,
+          587.5
+        ]
+      ],
+      "hollow_axis": 0,
+      "wall_mm": 5
+    },
+    {
+      "stl_component": 6,
+      "bounds_native_mm": [
+        [
+          312.5,
+          696.667,
+          1287.5
+        ],
+        [
+          1448.5,
+          796.667,
+          1387.5
+        ]
+      ],
+      "hollow_axis": 0,
+      "wall_mm": 5
+    },
+    {
+      "stl_component": 8,
+      "bounds_native_mm": [
+        [
+          17.5,
+          121.667,
+          609.5
+        ],
+        [
+          67.5,
+          771.667,
+          659.5
+        ]
+      ],
+      "hollow_axis": 1,
+      "wall_mm": 5
+    },
+    {
+      "stl_component": 9,
+      "bounds_native_mm": [
+        [
+          17.5,
+          121.667,
+          1209.5
+        ],
+        [
+          67.5,
+          771.667,
+          1259.5
+        ]
+      ],
+      "hollow_axis": 1,
+      "wall_mm": 5
+    },
+    {
+      "stl_component": 10,
+      "bounds_native_mm": [
+        [
+          17.5,
+          121.667,
+          609.5
+        ],
+        [
+          67.5,
+          171.667,
+          1259.5
+        ]
+      ],
+      "hollow_axis": 2,
+      "wall_mm": 5
+    },
+    {
+      "stl_component": 11,
+      "bounds_native_mm": [
+        [
+          17.5,
+          721.667,
+          609.5
+        ],
+        [
+          67.5,
+          771.667,
+          1259.5
+        ]
+      ],
+      "hollow_axis": 2,
+      "wall_mm": 5
+    },
+    {
+      "stl_component": 12,
+      "bounds_native_mm": [
+        [
+          272.5,
+          311.667,
+          879.8
+        ],
+        [
+          302.5,
+          581.667,
+          1029.8
+        ]
+      ],
+      "hollow_axis": null,
+      "wall_mm": null
+    },
+    {
+      "stl_component": 17,
+      "bounds_native_mm": [
+        [
+          312.5,
+          196.667,
+          1057.5
+        ],
+        [
+          412.5,
+          696.667,
+          1157.5
+        ]
+      ],
+      "hollow_axis": 1,
+      "wall_mm": 5
+    },
+    {
+      "stl_component": 18,
+      "bounds_native_mm": [
+        [
+          312.5,
+          196.667,
+          717.5
+        ],
+        [
+          412.5,
+          696.667,
+          817.5
+        ]
+      ],
+      "hollow_axis": 1,
+      "wall_mm": 5
+    },
+    {
+      "stl_component": 19,
+      "bounds_native_mm": [
+        [
+          312.5,
+          196.667,
+          487.5
+        ],
+        [
+          412.5,
+          696.667,
+          587.5
+        ]
+      ],
+      "hollow_axis": 1,
+      "wall_mm": 5
+    },
+    {
+      "stl_component": 20,
+      "bounds_native_mm": [
+        [
+          312.5,
+          196.667,
+          1287.5
+        ],
+        [
+          412.5,
+          696.667,
+          1387.5
+        ]
+      ],
+      "hollow_axis": 1,
+      "wall_mm": 5
+    },
+    {
+      "stl_component": 21,
+      "bounds_native_mm": [
+        [
+          633.5,
+          716.667,
+          587.5
+        ],
+        [
+          693.5,
+          776.667,
+          1287.5
+        ]
+      ],
+      "hollow_axis": 2,
+      "wall_mm": 5
+    },
+    {
+      "stl_component": 22,
+      "bounds_native_mm": [
+        [
+          1063.5,
+          716.667,
+          587.5
+        ],
+        [
+          1123.5,
+          776.667,
+          1287.5
+        ]
+      ],
+      "hollow_axis": 2,
+      "wall_mm": 5
+    },
+    {
+      "stl_component": 23,
+      "bounds_native_mm": [
+        [
+          633.5,
+          116.667,
+          587.5
+        ],
+        [
+          693.5,
+          176.667,
+          1287.5
+        ]
+      ],
+      "hollow_axis": 2,
+      "wall_mm": 5
+    },
+    {
+      "stl_component": 24,
+      "bounds_native_mm": [
+        [
+          1063.5,
+          116.667,
+          587.5
+        ],
+        [
+          1123.5,
+          176.667,
+          1287.5
+        ]
+      ],
+      "hollow_axis": 2,
+      "wall_mm": 5
+    },
+    {
+      "stl_component": 25,
+      "bounds_native_mm": [
+        [
+          216.5,
+          331.667,
+          884.8
+        ],
+        [
+          236.5,
+          561.667,
+          1024.8
+        ]
+      ],
+      "hollow_axis": null,
+      "wall_mm": null
+    },
+    {
+      "stl_component": 26,
+      "bounds_native_mm": [
+        [
+          633.5,
+          176.667,
+          757.5
+        ],
+        [
+          693.5,
+          716.667,
+          817.5
+        ]
+      ],
+      "hollow_axis": 1,
+      "wall_mm": 5
+    },
+    {
+      "stl_component": 27,
+      "bounds_native_mm": [
+        [
+          633.5,
+          176.667,
+          1057.5
+        ],
+        [
+          693.5,
+          716.667,
+          1117.5
+        ]
+      ],
+      "hollow_axis": 1,
+      "wall_mm": 5
+    },
+    {
+      "stl_component": 28,
+      "bounds_native_mm": [
+        [
+          633.5,
+          196.667,
+          1307.5
+        ],
+        [
+          693.5,
+          696.667,
+          1367.5
+        ]
+      ],
+      "hollow_axis": 1,
+      "wall_mm": 5
+    },
+    {
+      "stl_component": 29,
+      "bounds_native_mm": [
+        [
+          633.5,
+          196.667,
+          507.5
+        ],
+        [
+          693.5,
+          696.667,
+          567.5
+        ]
+      ],
+      "hollow_axis": 1,
+      "wall_mm": 5
+    },
+    {
+      "stl_component": 30,
+      "bounds_native_mm": [
+        [
+          1063.5,
+          196.667,
+          1307.5
+        ],
+        [
+          1123.5,
+          696.667,
+          1367.5
+        ]
+      ],
+      "hollow_axis": 1,
+      "wall_mm": 5
+    },
+    {
+      "stl_component": 31,
+      "bounds_native_mm": [
+        [
+          1063.5,
+          196.667,
+          507.5
+        ],
+        [
+          1123.5,
+          696.667,
+          567.5
+        ]
+      ],
+      "hollow_axis": 1,
+      "wall_mm": 5
+    },
+    {
+      "stl_component": 32,
+      "bounds_native_mm": [
+        [
+          17.5,
+          171.667,
+          909.5
+        ],
+        [
+          67.5,
+          721.667,
+          959.5
+        ]
+      ],
+      "hollow_axis": 1,
+      "wall_mm": 5
+    },
+    {
+      "stl_component": 51,
+      "bounds_native_mm": [
+        [
+          67.5,
+          721.667,
+          609.5
+        ],
+        [
+          242.5,
+          771.667,
+          659.5
+        ]
+      ],
+      "hollow_axis": 0,
+      "wall_mm": 5
+    },
+    {
+      "stl_component": 52,
+      "bounds_native_mm": [
+        [
+          67.5,
+          121.667,
+          609.5
+        ],
+        [
+          242.5,
+          171.667,
+          659.5
+        ]
+      ],
+      "hollow_axis": 0,
+      "wall_mm": 5
+    },
+    {
+      "stl_component": 53,
+      "bounds_native_mm": [
+        [
+          67.5,
+          721.667,
+          1209.5
+        ],
+        [
+          242.5,
+          771.667,
+          1259.5
+        ]
+      ],
+      "hollow_axis": 0,
+      "wall_mm": 5
+    },
+    {
+      "stl_component": 54,
+      "bounds_native_mm": [
+        [
+          67.5,
+          121.667,
+          1209.5
+        ],
+        [
+          242.5,
+          171.667,
+          1259.5
+        ]
+      ],
+      "hollow_axis": 0,
+      "wall_mm": 5
+    },
+    {
+      "stl_component": 84,
+      "bounds_native_mm": [
+        [
+          206.5,
+          396.667,
+          894.8
+        ],
+        [
+          216.5,
+          496.667,
+          1014.8
+        ]
+      ],
+      "hollow_axis": null,
+      "wall_mm": null
+    }
+  ],
+  "lead_panels": [],
+  "pipe_segments_mm": [
+    [
+      22,
+      115,
+      35,
+      25
+    ],
+    [
+      115,
+      149,
+      57.15,
+      33
+    ],
+    [
+      149,
+      654.5,
+      35,
+      33
+    ],
+    [
+      654.5,
+      687.5,
+      57.15,
+      33
+    ],
+    [
+      687.5,
+      765.5,
+      35,
+      33
+    ],
+    [
+      765.5,
+      798.5,
+      57.15,
+      29.5
+    ],
+    [
+      798.5,
+      808.4,
+      31.5,
+      29.5
+    ],
+    [
+      808.4,
+      858.4,
+      32,
+      25.5
+    ],
+    [
+      858.4,
+      868.3,
+      31.5,
+      29.5
+    ],
+    [
+      868.3,
+      901.8,
+      57.15,
+      33
+    ],
+    [
+      901.8,
+      1007.8,
+      35,
+      33
+    ],
+    [
+      1007.8,
+      1023.5,
+      57.15,
+      33
+    ]
+  ],
+  "support_boxes_native_mm": [
+    [
+      [
+        166.5,
+        396.667,
+        894.8
+      ],
+      [
+        206.5,
+        406.667,
+        1014.8
+      ]
+    ],
+    [
+      [
+        166.5,
+        486.667,
+        894.8
+      ],
+      [
+        206.5,
+        496.667,
+        1014.8
+      ]
+    ],
+    [
+      [
+        236.5,
+        351.667,
+        899.8
+      ],
+      [
+        272.5,
+        371.667,
+        919.8
+      ]
+    ],
+    [
+      [
+        236.5,
+        521.667,
+        989.8
+      ],
+      [
+        272.5,
+        541.667,
+        1009.8
+      ]
+    ]
+  ]
+}

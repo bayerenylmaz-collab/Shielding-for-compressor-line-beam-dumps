@@ -1,0 +1,11 @@
+{
+  "flair_version": "3.4-5.4",
+  "input_loaded": true,
+  "cards": 352,
+  "regions": 112,
+  "invalid_cards": [],
+  "gui_opened": false,
+  "transport_run_performed": false,
+  "native_flair_roundtrip_cards": 352,
+  "native_flair_roundtrip_regions": 112
+}

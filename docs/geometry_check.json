@@ -1,0 +1,71 @@
+{
+  "method": "Independent RPP/RCC/TRC/SPH point membership on exported INP",
+  "sampled_points": 332480,
+  "unassigned_points": 0,
+  "multiply_assigned_points": 0,
+  "regions": 112,
+  "bodies": 110,
+  "source_and_axis_probes": [
+    {
+      "point_cm": [
+        0.0,
+        140.0,
+        -1.0
+      ],
+      "region": "DUMPV0"
+    },
+    {
+      "point_cm": [
+        0.0,
+        140.0,
+        -0.0001
+      ],
+      "region": "DUMPV0"
+    },
+    {
+      "point_cm": [
+        0.0,
+        140.0,
+        0.0001
+      ],
+      "region": "DUMP"
+    },
+    {
+      "point_cm": [
+        0.0,
+        140.0,
+        8.9
+      ],
+      "region": "DUMP"
+    },
+    {
+      "point_cm": [
+        0.0,
+        140.0,
+        9.001
+      ],
+      "region": "AIR"
+    },
+    {
+      "point_cm": [
+        0.0,
+        140.0,
+        -50.0
+      ],
+      "region": "PIPE02V0"
+    },
+    {
+      "point_cm": [
+        0.0,
+        145.0,
+        -53.0
+      ],
+      "region": "PORTV0"
+    }
+  ],
+  "unhit_regions": [
+    "BLKHOLE"
+  ],
+  "transport_run_performed": false,
+  "limitations": "Point sampling is not a proof. No FLUKA executable run or native tracking check."
+}

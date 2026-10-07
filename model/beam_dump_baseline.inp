@@ -1,0 +1,480 @@
+TITLE
+Compressor beam dump - CAD simplified baseline, not dose validated
+* All geometry dimensions below are cm; source CAD dimensions were mm.
+* X transverse; Y vertical from feet; Z beam direction; dump bottom Z=0.
+* 20 MeV electron pencil beam, 1 cm upstream of cavity bottom.
+DEFAULTS                                                              PRECISIO
+BEAM           -0.02         0         0         0         0         1ELECTRON
+BEAMPOS            0       140      -1.0         0         0          
+GEOBEGIN                                                              COMBNAME
+    0    0          CAD simplified geometry
+RPP world -200 200 -50 300 -220 200
+SPH black 0 0 0 1000
+RCC cuout 0 140 -4 0 0 13 5.5
+TRC cone 0 140 -4 0 0 4 3 0.25
+RCC lipout 0 140 -4.4 0 0 0.4 4.1
+RCC lipin 0 140 -4.4 0 0 0.4 3.5
+RCC portin 0 140 -53 0 11.7 0 3.3
+RCC po00 0 140 -104.55 0 0 9.3 3.5
+RCC pi00 0 140 -104.55 0 0 9.3 2.5
+RCC po01 0 140 -95.25 0 0 3.4 5.715
+RCC pi01 0 140 -95.25 0 0 3.4 3.3
+RCC po02 0 140 -91.85 0 0 50.55 3.5
+RCC pi02 0 140 -91.85 0 0 50.55 3.3
+RCC po03 0 140 -41.3 0 0 3.3 5.715
+RCC pi03 0 140 -41.3 0 0 3.3 3.3
+RCC po04 0 140 -38 0 0 7.8 3.5
+RCC pi04 0 140 -38 0 0 7.8 3.3
+RCC po05 0 140 -30.2 0 0 3.3 5.715
+RCC pi05 0 140 -30.2 0 0 3.3 2.95
+RCC po06 0 140 -26.9 0 0 0.99 3.15
+RCC pi06 0 140 -26.9 0 0 0.99 2.95
+RCC po07 0 140 -25.91 0 0 5 3.2
+RCC pi07 0 140 -25.91 0 0 5 2.55
+RCC po08 0 140 -20.91 0 0 0.99 3.15
+RCC pi08 0 140 -20.91 0 0 0.99 2.95
+RCC po09 0 140 -19.92 0 0 3.35 5.715
+RCC pi09 0 140 -19.92 0 0 3.35 3.3
+RCC po10 0 140 -16.57 0 0 10.6 3.5
+RCC pi10 0 140 -16.57 0 0 10.6 3.3
+RCC po11 0 140 -5.97 0 0 1.57 5.715
+RCC pi11 0 140 -5.97 0 0 1.57 3.3
+RCC portout 0 140 -53 0 10 0 3.5
+RCC portfl 0 150 -53 0 1.7 0 5.715
+RCC portcap 0 151.7 -53 0 1.25 0 3.5
+RPP so00 -32.499967 32.500033 122.1 123.1 -57.5 31.5
+RPP so01 -31.499967 31.500033 90 91 -47.5 21.5
+RPP so02 -31.499967 31.500033 151.6 152.6 -44.8 18.2
+RPP so03 -34.999967 -24.999967 8.5 122.1 -58 -48
+RPP si03 -34.499967 -25.499967 8.5 122.1 -57.5 -48.5
+RPP so04 -34.999967 -24.999967 8.5 122.1 22 32
+RPP si04 -34.499967 -25.499967 8.5 122.1 22.5 31.5
+RPP so05 25.000033 35.000033 8.5 122.1 -58 -48
+RPP si05 25.500033 34.500033 8.5 122.1 -57.5 -48.5
+RPP so06 25.000033 35.000033 8.5 122.1 22 32
+RPP si06 25.500033 34.500033 8.5 122.1 22.5 31.5
+RPP so07 -32.499967 32.500033 146.6 151.6 -45.8 -40.8
+RPP si07 -32.499967 32.500033 147.1 151.1 -45.3 -41.3
+RPP so08 -32.499967 32.500033 146.6 151.6 14.2 19.2
+RPP si08 -32.499967 32.500033 147.1 151.1 14.7 18.7
+RPP so09 -32.499967 -27.499967 146.6 151.6 -45.8 19.2
+RPP si09 -31.999967 -27.999967 147.1 151.1 -45.8 19.2
+RPP so10 27.500033 32.500033 146.6 151.6 -45.8 19.2
+RPP si10 28.000033 32.000033 147.1 151.1 -45.8 19.2
+RPP so11 -13.499967 13.500033 123.1 126.1 -18.77 -3.77
+RPP so12 -24.999967 25.000033 112.1 122.1 -1 9
+RPP si12 -24.999967 25.000033 112.6 121.6 -0.5 8.5
+RPP so13 -24.999967 25.000033 112.1 122.1 -35 -25
+RPP si13 -24.999967 25.000033 112.6 121.6 -34.5 -25.5
+RPP so14 -24.999967 25.000033 112.1 122.1 -58 -48
+RPP si14 -24.999967 25.000033 112.6 121.6 -57.5 -48.5
+RPP so15 -24.999967 25.000033 112.1 122.1 22 32
+RPP si15 -24.999967 25.000033 112.6 121.6 22.5 31.5
+RPP so16 27.000033 33.000033 84 90 -48 22
+RPP si16 27.500033 32.500033 84.5 89.5 -48 22
+RPP so17 27.000033 33.000033 41 47 -48 22
+RPP si17 27.500033 32.500033 41.5 46.5 -48 22
+RPP so18 -32.999967 -26.999967 84 90 -48 22
+RPP si18 -32.499967 -27.499967 84.5 89.5 -48 22
+RPP so19 -32.999967 -26.999967 41 47 -48 22
+RPP si19 -32.499967 -27.499967 41.5 46.5 -48 22
+RPP so20 -11.499967 11.500033 129.7 131.7 -18.27 -4.27
+RPP so21 -26.999967 27.000033 84 90 -31 -25
+RPP si21 -26.999967 27.000033 84.5 89.5 -30.5 -25.5
+RPP so22 -26.999967 27.000033 84 90 -1 5
+RPP si22 -26.999967 27.000033 84.5 89.5 -0.5 4.5
+RPP so23 -24.999967 25.000033 84 90 24 30
+RPP si23 -24.999967 25.000033 84.5 89.5 24.5 29.5
+RPP so24 -24.999967 25.000033 84 90 -56 -50
+RPP si24 -24.999967 25.000033 84.5 89.5 -55.5 -50.5
+RPP so25 -24.999967 25.000033 41 47 24 30
+RPP si25 -24.999967 25.000033 41.5 46.5 24.5 29.5
+RPP so26 -24.999967 25.000033 41 47 -56 -50
+RPP si26 -24.999967 25.000033 41.5 46.5 -55.5 -50.5
+RPP so27 -27.499967 27.500033 146.6 151.6 -15.8 -10.8
+RPP si27 -27.499967 27.500033 147.1 151.1 -15.3 -11.3
+RPP so28 27.500033 32.500033 129.1 146.6 -45.8 -40.8
+RPP si28 28.000033 32.000033 129.1 146.6 -45.3 -41.3
+RPP so29 -32.499967 -27.499967 129.1 146.6 -45.8 -40.8
+RPP si29 -31.999967 -27.999967 129.1 146.6 -45.3 -41.3
+RPP so30 27.500033 32.500033 129.1 146.6 14.2 19.2
+RPP si30 28.000033 32.000033 129.1 146.6 14.7 18.7
+RPP so31 -32.499967 -27.499967 129.1 146.6 14.2 19.2
+RPP si31 -31.999967 -27.999967 129.1 146.6 14.7 18.7
+RPP so32 -4.999967 5.000033 131.7 132.7 -17.27 -5.27
+RCC adj0 -30 123.1 -43.3 0 4.5 0 0.8
+RCC adj1 30 123.1 -43.3 0 4.5 0 0.8
+RCC adj2 -30 123.1 16.7 0 4.5 0 0.8
+RCC adj3 30 123.1 16.7 0 4.5 0 0.8
+RCC foot0 -30 0.2 -53 0 5.8 0 1.5
+RPP base0 -36 -24 0 0.2 -59 -47
+RCC foot1 30 0.2 -53 0 5.8 0 1.5
+RPP base1 24 36 0 0.2 -59 -47
+RCC foot2 -30 0.2 27 0 5.8 0 1.5
+RPP base2 -36 -24 0 0.2 21 33
+RCC foot3 30 0.2 27 0 5.8 0 1.5
+RPP base3 24 36 0 0.2 21 33
+RPP sup0 -4.999967 -3.999967 132.7 136.7 -17.27 -5.27
+RPP sup1 4.000033 5.000033 132.7 136.7 -17.27 -5.27
+RPP sup2 -9.499967 -7.499967 126.1 129.7 -16.77 -14.77
+RPP sup3 7.500033 9.500033 126.1 129.7 -7.77 -5.77
+END
+* Transport termination
+BLKHOLE  5 +black -world
+* STL component 7: fins and screw holes omitted
+DUMP     5 +cuout -cone
+* Cavity of DUMP
+DUMPV0   5 +cuout +cone
+* Copper entrance lip
+CULIP    5 +lipout -lipin
+* Cavity of CULIP
+CULIPV0  5 +lipout +lipin
+* Smoothed beam pipe / flange
+PIPE00   5 +po00 -pi00
+* Cavity of PIPE00
+PIPE00V0 5 +po00 +pi00
+* Smoothed beam pipe / flange
+PIPE01   5 +po01 -pi01
+* Cavity of PIPE01
+PIPE01V0 5 +po01 +pi01
+* Smoothed beam pipe / flange
+PIPE02   5 +po02 -pi02 -portin
+* Cavity of PIPE02
+PIPE02V0 5 +po02 +pi02
+* Cavity of PIPE02
+PIPE02V1 5 +po02 +portin -pi02
+* Smoothed beam pipe / flange
+PIPE03   5 +po03 -pi03
+* Cavity of PIPE03
+PIPE03V0 5 +po03 +pi03
+* Smoothed beam pipe / flange
+PIPE04   5 +po04 -pi04
+* Cavity of PIPE04
+PIPE04V0 5 +po04 +pi04
+* Smoothed beam pipe / flange
+PIPE05   5 +po05 -pi05
+* Cavity of PIPE05
+PIPE05V0 5 +po05 +pi05
+* Smoothed beam pipe / flange
+PIPE06   5 +po06 -pi06
+* Cavity of PIPE06
+PIPE06V0 5 +po06 +pi06
+* Smoothed beam pipe / flange
+PIPE07   5 +po07 -pi07
+* Cavity of PIPE07
+PIPE07V0 5 +po07 +pi07
+* Smoothed beam pipe / flange
+PIPE08   5 +po08 -pi08
+* Cavity of PIPE08
+PIPE08V0 5 +po08 +pi08
+* Smoothed beam pipe / flange
+PIPE09   5 +po09 -pi09
+* Cavity of PIPE09
+PIPE09V0 5 +po09 +pi09
+* Smoothed beam pipe / flange
+PIPE10   5 +po10 -pi10
+* Cavity of PIPE10
+PIPE10V0 5 +po10 +pi10
+* Smoothed beam pipe / flange
+PIPE11   5 +po11 -pi11
+* Cavity of PIPE11
+PIPE11V0 5 +po11 +pi11
+* Vertical T-port, simplified
+PORT     5 +portout -po02 -portin
+* Cavity of PORT
+PORTV0   5 +portout +portin -po02
+* T-port flange
+PORTFL   5 +portfl -portin
+* Cavity of PORTFL
+PORTFLV0 5 +portfl +portin
+* Simplified closed port cap
+PORTCAP  5 +portcap
+* STL component 0; squared corners
+STR00    5 +so00
+* STL component 1; squared corners
+STR01    5 +so01
+* STL component 2; squared corners
+STR02    5 +so02
+* STL component 3; squared corners
+STR03    5 +so03 -si03
+* Cavity of STR03
+STR03V0  5 +so03 +si03
+* STL component 4; squared corners
+STR04    5 +so04 -si04
+* Cavity of STR04
+STR04V0  5 +so04 +si04
+* STL component 5; squared corners
+STR05    5 +so05 -si05
+* Cavity of STR05
+STR05V0  5 +so05 +si05
+* STL component 6; squared corners
+STR06    5 +so06 -si06
+* Cavity of STR06
+STR06V0  5 +so06 +si06
+* STL component 8; squared corners
+STR07    5 +so07 -si07
+* Cavity of STR07
+STR07V0  5 +so07 +si07
+* STL component 9; squared corners
+STR08    5 +so08 -si08
+* Cavity of STR08
+STR08V0  5 +so08 +si08
+* STL component 10; squared corners
+STR09    5 +so09 -so07 -so08 -si09
+* Cavity of STR09
+STR09V0  5 +so09 +si09 -so07 -so08
+* STL component 11; squared corners
+STR10    5 +so10 -so07 -so08 -si10
+* Cavity of STR10
+STR10V0  5 +so10 +si10 -so07 -so08
+* STL component 12; squared corners
+STR11    5 +so11
+* STL component 17; squared corners
+STR12    5 +so12 -si12
+* Cavity of STR12
+STR12V0  5 +so12 +si12
+* STL component 18; squared corners
+STR13    5 +so13 -si13
+* Cavity of STR13
+STR13V0  5 +so13 +si13
+* STL component 19; squared corners
+STR14    5 +so14 -si14
+* Cavity of STR14
+STR14V0  5 +so14 +si14
+* STL component 20; squared corners
+STR15    5 +so15 -si15
+* Cavity of STR15
+STR15V0  5 +so15 +si15
+* STL component 21; squared corners
+STR16    5 +so16 -si16
+* Cavity of STR16
+STR16V0  5 +so16 +si16
+* STL component 22; squared corners
+STR17    5 +so17 -si17
+* Cavity of STR17
+STR17V0  5 +so17 +si17
+* STL component 23; squared corners
+STR18    5 +so18 -si18
+* Cavity of STR18
+STR18V0  5 +so18 +si18
+* STL component 24; squared corners
+STR19    5 +so19 -si19
+* Cavity of STR19
+STR19V0  5 +so19 +si19
+* STL component 25; squared corners
+STR20    5 +so20
+* STL component 26; squared corners
+STR21    5 +so21 -si21
+* Cavity of STR21
+STR21V0  5 +so21 +si21
+* STL component 27; squared corners
+STR22    5 +so22 -si22
+* Cavity of STR22
+STR22V0  5 +so22 +si22
+* STL component 28; squared corners
+STR23    5 +so23 -si23
+* Cavity of STR23
+STR23V0  5 +so23 +si23
+* STL component 29; squared corners
+STR24    5 +so24 -si24
+* Cavity of STR24
+STR24V0  5 +so24 +si24
+* STL component 30; squared corners
+STR25    5 +so25 -si25
+* Cavity of STR25
+STR25V0  5 +so25 +si25
+* STL component 31; squared corners
+STR26    5 +so26 -si26
+* Cavity of STR26
+STR26V0  5 +so26 +si26
+* STL component 32; squared corners
+STR27    5 +so27 -si27
+* Cavity of STR27
+STR27V0  5 +so27 +si27
+* STL component 51; squared corners
+STR28    5 +so28 -si28
+* Cavity of STR28
+STR28V0  5 +so28 +si28
+* STL component 52; squared corners
+STR29    5 +so29 -si29
+* Cavity of STR29
+STR29V0  5 +so29 +si29
+* STL component 53; squared corners
+STR30    5 +so30 -si30
+* Cavity of STR30
+STR30V0  5 +so30 +si30
+* STL component 54; squared corners
+STR31    5 +so31 -si31
+* Cavity of STR31
+STR31V0  5 +so31 +si31
+* STL component 84; squared corners
+STR32    5 +so32
+* Upper frame adjustment screw, simplified
+ADJ0     5 +adj0
+* Upper frame adjustment screw, simplified
+ADJ1     5 +adj1
+* Upper frame adjustment screw, simplified
+ADJ2     5 +adj2
+* Upper frame adjustment screw, simplified
+ADJ3     5 +adj3
+* Table leveling foot, thread omitted
+FOOT0    5 +foot0
+* Foot base plate
+BASE0    5 +base0
+* Table leveling foot, thread omitted
+FOOT1    5 +foot1
+* Foot base plate
+BASE1    5 +base1
+* Table leveling foot, thread omitted
+FOOT2    5 +foot2
+* Foot base plate
+BASE2    5 +base2
+* Table leveling foot, thread omitted
+FOOT3    5 +foot3
+* Foot base plate
+BASE3    5 +base3
+* Simplified beam-pipe support
+SUP0     5 +sup0 -po09 -po11
+* Simplified beam-pipe support
+SUP1     5 +sup1 -po09 -po11
+* Simplified beam-pipe support
+SUP2     5 +sup2
+* Simplified beam-pipe support
+SUP3     5 +sup3
+* Ambient air including omitted details
+AIR      5 +world -cuout -lipout -po00 -po01 -po02 -po03 -po04 -po05 -po06 -po07 -po08 -po09 -po10 -po11 -portout
+            -portfl -portcap -so00 -so01 -so02 -so03 -so04 -so05 -so06 -so07 -so08 -so09 -so10 -so11 -so12 -so13 -so14
+            -so15 -so16 -so17 -so18 -so19 -so20 -so21 -so22 -so23 -so24 -so25 -so26 -so27 -so28 -so29 -so30 -so31 -so32
+            -adj0 -adj1 -adj2 -adj3 -foot0 -base0 -foot1 -base1 -foot2 -base2 -foot3 -base3 -sup0 -sup1 -sup2 -sup3
+END
+GEOEND                                                                
+ASSIGNMA    BLCKHOLE   BLKHOLE                                        
+ASSIGNMA      COPPER      DUMP                                        
+ASSIGNMA      VACUUM    DUMPV0                                        
+ASSIGNMA      COPPER     CULIP                                        
+ASSIGNMA      VACUUM   CULIPV0                                        
+ASSIGNMA        IRON    PIPE00                                        
+ASSIGNMA      VACUUM  PIPE00V0                                        
+ASSIGNMA        IRON    PIPE01                                        
+ASSIGNMA      VACUUM  PIPE01V0                                        
+ASSIGNMA        IRON    PIPE02                                        
+ASSIGNMA      VACUUM  PIPE02V0                                        
+ASSIGNMA      VACUUM  PIPE02V1                                        
+ASSIGNMA        IRON    PIPE03                                        
+ASSIGNMA      VACUUM  PIPE03V0                                        
+ASSIGNMA        IRON    PIPE04                                        
+ASSIGNMA      VACUUM  PIPE04V0                                        
+ASSIGNMA        IRON    PIPE05                                        
+ASSIGNMA      VACUUM  PIPE05V0                                        
+ASSIGNMA        IRON    PIPE06                                        
+ASSIGNMA      VACUUM  PIPE06V0                                        
+ASSIGNMA        IRON    PIPE07                                        
+ASSIGNMA      VACUUM  PIPE07V0                                        
+ASSIGNMA        IRON    PIPE08                                        
+ASSIGNMA      VACUUM  PIPE08V0                                        
+ASSIGNMA        IRON    PIPE09                                        
+ASSIGNMA      VACUUM  PIPE09V0                                        
+ASSIGNMA        IRON    PIPE10                                        
+ASSIGNMA      VACUUM  PIPE10V0                                        
+ASSIGNMA        IRON    PIPE11                                        
+ASSIGNMA      VACUUM  PIPE11V0                                        
+ASSIGNMA        IRON      PORT                                        
+ASSIGNMA      VACUUM    PORTV0                                        
+ASSIGNMA        IRON    PORTFL                                        
+ASSIGNMA      VACUUM  PORTFLV0                                        
+ASSIGNMA        IRON   PORTCAP                                        
+ASSIGNMA        IRON     STR00                                        
+ASSIGNMA        IRON     STR01                                        
+ASSIGNMA        IRON     STR02                                        
+ASSIGNMA        IRON     STR03                                        
+ASSIGNMA         AIR   STR03V0                                        
+ASSIGNMA        IRON     STR04                                        
+ASSIGNMA         AIR   STR04V0                                        
+ASSIGNMA        IRON     STR05                                        
+ASSIGNMA         AIR   STR05V0                                        
+ASSIGNMA        IRON     STR06                                        
+ASSIGNMA         AIR   STR06V0                                        
+ASSIGNMA        IRON     STR07                                        
+ASSIGNMA         AIR   STR07V0                                        
+ASSIGNMA        IRON     STR08                                        
+ASSIGNMA         AIR   STR08V0                                        
+ASSIGNMA        IRON     STR09                                        
+ASSIGNMA         AIR   STR09V0                                        
+ASSIGNMA        IRON     STR10                                        
+ASSIGNMA         AIR   STR10V0                                        
+ASSIGNMA        IRON     STR11                                        
+ASSIGNMA        IRON     STR12                                        
+ASSIGNMA         AIR   STR12V0                                        
+ASSIGNMA        IRON     STR13                                        
+ASSIGNMA         AIR   STR13V0                                        
+ASSIGNMA        IRON     STR14                                        
+ASSIGNMA         AIR   STR14V0                                        
+ASSIGNMA        IRON     STR15                                        
+ASSIGNMA         AIR   STR15V0                                        
+ASSIGNMA        IRON     STR16                                        
+ASSIGNMA         AIR   STR16V0                                        
+ASSIGNMA        IRON     STR17                                        
+ASSIGNMA         AIR   STR17V0                                        
+ASSIGNMA        IRON     STR18                                        
+ASSIGNMA         AIR   STR18V0                                        
+ASSIGNMA        IRON     STR19                                        
+ASSIGNMA         AIR   STR19V0                                        
+ASSIGNMA        IRON     STR20                                        
+ASSIGNMA        IRON     STR21                                        
+ASSIGNMA         AIR   STR21V0                                        
+ASSIGNMA        IRON     STR22                                        
+ASSIGNMA         AIR   STR22V0                                        
+ASSIGNMA        IRON     STR23                                        
+ASSIGNMA         AIR   STR23V0                                        
+ASSIGNMA        IRON     STR24                                        
+ASSIGNMA         AIR   STR24V0                                        
+ASSIGNMA        IRON     STR25                                        
+ASSIGNMA         AIR   STR25V0                                        
+ASSIGNMA        IRON     STR26                                        
+ASSIGNMA         AIR   STR26V0                                        
+ASSIGNMA        IRON     STR27                                        
+ASSIGNMA         AIR   STR27V0                                        
+ASSIGNMA        IRON     STR28                                        
+ASSIGNMA         AIR   STR28V0                                        
+ASSIGNMA        IRON     STR29                                        
+ASSIGNMA         AIR   STR29V0                                        
+ASSIGNMA        IRON     STR30                                        
+ASSIGNMA         AIR   STR30V0                                        
+ASSIGNMA        IRON     STR31                                        
+ASSIGNMA         AIR   STR31V0                                        
+ASSIGNMA        IRON     STR32                                        
+ASSIGNMA        IRON      ADJ0                                        
+ASSIGNMA        IRON      ADJ1                                        
+ASSIGNMA        IRON      ADJ2                                        
+ASSIGNMA        IRON      ADJ3                                        
+ASSIGNMA        IRON     FOOT0                                        
+ASSIGNMA        IRON     BASE0                                        
+ASSIGNMA        IRON     FOOT1                                        
+ASSIGNMA        IRON     BASE1                                        
+ASSIGNMA        IRON     FOOT2                                        
+ASSIGNMA        IRON     BASE2                                        
+ASSIGNMA        IRON     FOOT3                                        
+ASSIGNMA        IRON     BASE3                                        
+ASSIGNMA        IRON      SUP0                                        
+ASSIGNMA        IRON      SUP1                                        
+ASSIGNMA        IRON      SUP2                                        
+ASSIGNMA        IRON      SUP3                                        
+ASSIGNMA         AIR       AIR                                        
+* Include photonuclear and electronuclear channels in used materials.
+PHOTONUC           1                        COPPER    COPPER         1ELECTNUC
+PHOTONUC           1                          IRON      IRON         1ELECTNUC
+PHOTONUC           1                          LEAD      LEAD         1ELECTNUC
+PHOTONUC           1                           AIR       AIR         1ELECTNUC
+* Broad 2-cm 3D mesh: select the actual electronics sector after inspection.
+* DOSE-EQ output is pSv/primary; at 1 uA multiply by 2.2469432668E7
+* to obtain mSv/h. No transport calculation has been performed here.
+USRBIN            10   DOSE-EQ       -21       100       180       100DoseMap
+USRBIN          -100       100      -120       100        40       110&
+USRBIN            10    PHOTON       -22       100       180       100PhotMap
+USRBIN          -100       100      -120       100        40       110&
+USRBIN            10   NEUTRON       -23       100       180       100NeutMap
+USRBIN          -100       100      -120       100        40       110&
+RANDOMIZ           1   1234567                                        
+* 10000 histories is a smoke run, NOT production shielding statistics.
+START          10000                                                  
+STOP                                                                  

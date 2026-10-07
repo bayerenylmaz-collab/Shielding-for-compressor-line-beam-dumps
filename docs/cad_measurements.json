@@ -1,0 +1,73 @@
+{
+  "source_repository": "https://github.com/bayerenylmaz-collab/Shielding-for-compressor-line-beam-dumps",
+  "source_commit": "d2f81d7",
+  "archive": "kaba_cizim.zip",
+  "stl": "kaba_cizim.STL",
+  "stl_sha256": "2efe01b2bee12abb343a517d03122d5b2dfe95ded244894c2b82279fc386acad",
+  "stl_triangles": 1270950,
+  "units_confirmed_by_user": "mm",
+  "native_bounds_mm": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      1533.5,
+      893.3333,
+      1397.5
+    ]
+  ],
+  "connected_surface_components": 1664,
+  "notes": [
+    "STL has open and fragmented surface components; component volumes are not uniformly reliable.",
+    "Dump component 7 is watertight; assembly was reconstructed analytically, not imported as a mesh."
+  ],
+  "dump_component": {
+    "id": 7,
+    "faces": 4006,
+    "volume": 1541010.7629459156,
+    "watertight": true,
+    "bounds": [
+      [
+        68.51730346679688,
+        381.6839599609375,
+        1023.5000610351562
+      ],
+      [
+        198.48268127441406,
+        511.64935302734375,
+        1157.5
+      ]
+    ],
+    "extent": [
+      129.9653778076172,
+      129.96539306640625,
+      133.99993896484375
+    ]
+  },
+  "transform_to_cm": {
+    "x": "(native_y - 446.666667)/10",
+    "y": "(1533.5 - native_x)/10",
+    "z": "(native_z - 1067.5)/10"
+  },
+  "dump_native_axis": "positive Z",
+  "dump_native_axis_center_xy_mm": [
+    133.5,
+    446.666667
+  ],
+  "cavity_mouth_native_z_mm": 1027.5,
+  "cavity_bottom_native_z_mm": 1067.5,
+  "dump_back_native_z_mm": 1157.5,
+  "cavity_radii_mm": [
+    30,
+    2.5
+  ],
+  "fin_root_radius_mm": 55,
+  "fin_outer_radius_mm": 65,
+  "source_native_mm": [
+    133.5,
+    446.666667,
+    1057.5
+  ]
+}

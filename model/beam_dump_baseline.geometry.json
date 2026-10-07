@@ -1,0 +1,2872 @@
+{
+  "bodies": {
+    "world": {
+      "kind": "RPP",
+      "values": [
+        -200,
+        200,
+        -50,
+        300,
+        -220,
+        200
+      ]
+    },
+    "black": {
+      "kind": "SPH",
+      "values": [
+        0,
+        0,
+        0,
+        1000
+      ]
+    },
+    "cuout": {
+      "kind": "RCC",
+      "values": [
+        0,
+        140.0,
+        -4.0,
+        0,
+        0,
+        13.0,
+        5.5
+      ]
+    },
+    "cone": {
+      "kind": "TRC",
+      "values": [
+        0,
+        140.0,
+        -4.0,
+        0,
+        0,
+        4.0,
+        3.0,
+        0.25
+      ]
+    },
+    "lipout": {
+      "kind": "RCC",
+      "values": [
+        0,
+        140.0,
+        -4.4,
+        0,
+        0,
+        0.4,
+        4.1
+      ]
+    },
+    "lipin": {
+      "kind": "RCC",
+      "values": [
+        0,
+        140.0,
+        -4.4,
+        0,
+        0,
+        0.4,
+        3.5
+      ]
+    },
+    "portin": {
+      "kind": "RCC",
+      "values": [
+        0,
+        140,
+        -53,
+        0,
+        11.7,
+        0,
+        3.3
+      ]
+    },
+    "po00": {
+      "kind": "RCC",
+      "values": [
+        0,
+        140.0,
+        -104.55,
+        0,
+        0,
+        9.3,
+        3.5
+      ]
+    },
+    "pi00": {
+      "kind": "RCC",
+      "values": [
+        0,
+        140.0,
+        -104.55,
+        0,
+        0,
+        9.3,
+        2.5
+      ]
+    },
+    "po01": {
+      "kind": "RCC",
+      "values": [
+        0,
+        140.0,
+        -95.25,
+        0,
+        0,
+        3.4,
+        5.715
+      ]
+    },
+    "pi01": {
+      "kind": "RCC",
+      "values": [
+        0,
+        140.0,
+        -95.25,
+        0,
+        0,
+        3.4,
+        3.3
+      ]
+    },
+    "po02": {
+      "kind": "RCC",
+      "values": [
+        0,
+        140.0,
+        -91.85,
+        0,
+        0,
+        50.55,
+        3.5
+      ]
+    },
+    "pi02": {
+      "kind": "RCC",
+      "values": [
+        0,
+        140.0,
+        -91.85,
+        0,
+        0,
+        50.55,
+        3.3
+      ]
+    },
+    "po03": {
+      "kind": "RCC",
+      "values": [
+        0,
+        140.0,
+        -41.3,
+        0,
+        0,
+        3.3,
+        5.715
+      ]
+    },
+    "pi03": {
+      "kind": "RCC",
+      "values": [
+        0,
+        140.0,
+        -41.3,
+        0,
+        0,
+        3.3,
+        3.3
+      ]
+    },
+    "po04": {
+      "kind": "RCC",
+      "values": [
+        0,
+        140.0,
+        -38.0,
+        0,
+        0,
+        7.8,
+        3.5
+      ]
+    },
+    "pi04": {
+      "kind": "RCC",
+      "values": [
+        0,
+        140.0,
+        -38.0,
+        0,
+        0,
+        7.8,
+        3.3
+      ]
+    },
+    "po05": {
+      "kind": "RCC",
+      "values": [
+        0,
+        140.0,
+        -30.2,
+        0,
+        0,
+        3.3,
+        5.715
+      ]
+    },
+    "pi05": {
+      "kind": "RCC",
+      "values": [
+        0,
+        140.0,
+        -30.2,
+        0,
+        0,
+        3.3,
+        2.95
+      ]
+    },
+    "po06": {
+      "kind": "RCC",
+      "values": [
+        0,
+        140.0,
+        -26.9,
+        0,
+        0,
+        0.99,
+        3.15
+      ]
+    },
+    "pi06": {
+      "kind": "RCC",
+      "values": [
+        0,
+        140.0,
+        -26.9,
+        0,
+        0,
+        0.99,
+        2.95
+      ]
+    },
+    "po07": {
+      "kind": "RCC",
+      "values": [
+        0,
+        140.0,
+        -25.91,
+        0,
+        0,
+        5.0,
+        3.2
+      ]
+    },
+    "pi07": {
+      "kind": "RCC",
+      "values": [
+        0,
+        140.0,
+        -25.91,
+        0,
+        0,
+        5.0,
+        2.55
+      ]
+    },
+    "po08": {
+      "kind": "RCC",
+      "values": [
+        0,
+        140.0,
+        -20.91,
+        0,
+        0,
+        0.99,
+        3.15
+      ]
+    },
+    "pi08": {
+      "kind": "RCC",
+      "values": [
+        0,
+        140.0,
+        -20.91,
+        0,
+        0,
+        0.99,
+        2.95
+      ]
+    },
+    "po09": {
+      "kind": "RCC",
+      "values": [
+        0,
+        140.0,
+        -19.92,
+        0,
+        0,
+        3.35,
+        5.715
+      ]
+    },
+    "pi09": {
+      "kind": "RCC",
+      "values": [
+        0,
+        140.0,
+        -19.92,
+        0,
+        0,
+        3.35,
+        3.3
+      ]
+    },
+    "po10": {
+      "kind": "RCC",
+      "values": [
+        0,
+        140.0,
+        -16.57,
+        0,
+        0,
+        10.6,
+        3.5
+      ]
+    },
+    "pi10": {
+      "kind": "RCC",
+      "values": [
+        0,
+        140.0,
+        -16.57,
+        0,
+        0,
+        10.6,
+        3.3
+      ]
+    },
+    "po11": {
+      "kind": "RCC",
+      "values": [
+        0,
+        140.0,
+        -5.97,
+        0,
+        0,
+        1.57,
+        5.715
+      ]
+    },
+    "pi11": {
+      "kind": "RCC",
+      "values": [
+        0,
+        140.0,
+        -5.97,
+        0,
+        0,
+        1.57,
+        3.3
+      ]
+    },
+    "portout": {
+      "kind": "RCC",
+      "values": [
+        0,
+        140,
+        -53,
+        0,
+        10,
+        0,
+        3.5
+      ]
+    },
+    "portfl": {
+      "kind": "RCC",
+      "values": [
+        0,
+        150,
+        -53,
+        0,
+        1.7,
+        0,
+        5.715
+      ]
+    },
+    "portcap": {
+      "kind": "RCC",
+      "values": [
+        0,
+        151.7,
+        -53,
+        0,
+        1.25,
+        0,
+        3.5
+      ]
+    },
+    "so00": {
+      "kind": "RPP",
+      "values": [
+        -32.499967,
+        32.500033,
+        122.1,
+        123.1,
+        -57.5,
+        31.5
+      ]
+    },
+    "so01": {
+      "kind": "RPP",
+      "values": [
+        -31.499967,
+        31.500033,
+        90.0,
+        91.0,
+        -47.5,
+        21.5
+      ]
+    },
+    "so02": {
+      "kind": "RPP",
+      "values": [
+        -31.499967,
+        31.500033,
+        151.6,
+        152.6,
+        -44.8,
+        18.2
+      ]
+    },
+    "so03": {
+      "kind": "RPP",
+      "values": [
+        -34.999967,
+        -24.999967,
+        8.5,
+        122.1,
+        -58.0,
+        -48.0
+      ]
+    },
+    "si03": {
+      "kind": "RPP",
+      "values": [
+        -34.499967,
+        -25.499967,
+        8.5,
+        122.1,
+        -57.5,
+        -48.5
+      ]
+    },
+    "so04": {
+      "kind": "RPP",
+      "values": [
+        -34.999967,
+        -24.999967,
+        8.5,
+        122.1,
+        22.0,
+        32.0
+      ]
+    },
+    "si04": {
+      "kind": "RPP",
+      "values": [
+        -34.499967,
+        -25.499967,
+        8.5,
+        122.1,
+        22.5,
+        31.5
+      ]
+    },
+    "so05": {
+      "kind": "RPP",
+      "values": [
+        25.000033,
+        35.000033,
+        8.5,
+        122.1,
+        -58.0,
+        -48.0
+      ]
+    },
+    "si05": {
+      "kind": "RPP",
+      "values": [
+        25.500033,
+        34.500033,
+        8.5,
+        122.1,
+        -57.5,
+        -48.5
+      ]
+    },
+    "so06": {
+      "kind": "RPP",
+      "values": [
+        25.000033,
+        35.000033,
+        8.5,
+        122.1,
+        22.0,
+        32.0
+      ]
+    },
+    "si06": {
+      "kind": "RPP",
+      "values": [
+        25.500033,
+        34.500033,
+        8.5,
+        122.1,
+        22.5,
+        31.5
+      ]
+    },
+    "so07": {
+      "kind": "RPP",
+      "values": [
+        -32.499967,
+        32.500033,
+        146.6,
+        151.6,
+        -45.8,
+        -40.8
+      ]
+    },
+    "si07": {
+      "kind": "RPP",
+      "values": [
+        -32.499967,
+        32.500033,
+        147.1,
+        151.1,
+        -45.3,
+        -41.3
+      ]
+    },
+    "so08": {
+      "kind": "RPP",
+      "values": [
+        -32.499967,
+        32.500033,
+        146.6,
+        151.6,
+        14.2,
+        19.2
+      ]
+    },
+    "si08": {
+      "kind": "RPP",
+      "values": [
+        -32.499967,
+        32.500033,
+        147.1,
+        151.1,
+        14.7,
+        18.7
+      ]
+    },
+    "so09": {
+      "kind": "RPP",
+      "values": [
+        -32.499967,
+        -27.499967,
+        146.6,
+        151.6,
+        -45.8,
+        19.2
+      ]
+    },
+    "si09": {
+      "kind": "RPP",
+      "values": [
+        -31.999967,
+        -27.999967,
+        147.1,
+        151.1,
+        -45.8,
+        19.2
+      ]
+    },
+    "so10": {
+      "kind": "RPP",
+      "values": [
+        27.500033,
+        32.500033,
+        146.6,
+        151.6,
+        -45.8,
+        19.2
+      ]
+    },
+    "si10": {
+      "kind": "RPP",
+      "values": [
+        28.000033,
+        32.000033,
+        147.1,
+        151.1,
+        -45.8,
+        19.2
+      ]
+    },
+    "so11": {
+      "kind": "RPP",
+      "values": [
+        -13.499967,
+        13.500033,
+        123.1,
+        126.1,
+        -18.77,
+        -3.77
+      ]
+    },
+    "so12": {
+      "kind": "RPP",
+      "values": [
+        -24.999967,
+        25.000033,
+        112.1,
+        122.1,
+        -1.0,
+        9.0
+      ]
+    },
+    "si12": {
+      "kind": "RPP",
+      "values": [
+        -24.999967,
+        25.000033,
+        112.6,
+        121.6,
+        -0.5,
+        8.5
+      ]
+    },
+    "so13": {
+      "kind": "RPP",
+      "values": [
+        -24.999967,
+        25.000033,
+        112.1,
+        122.1,
+        -35.0,
+        -25.0
+      ]
+    },
+    "si13": {
+      "kind": "RPP",
+      "values": [
+        -24.999967,
+        25.000033,
+        112.6,
+        121.6,
+        -34.5,
+        -25.5
+      ]
+    },
+    "so14": {
+      "kind": "RPP",
+      "values": [
+        -24.999967,
+        25.000033,
+        112.1,
+        122.1,
+        -58.0,
+        -48.0
+      ]
+    },
+    "si14": {
+      "kind": "RPP",
+      "values": [
+        -24.999967,
+        25.000033,
+        112.6,
+        121.6,
+        -57.5,
+        -48.5
+      ]
+    },
+    "so15": {
+      "kind": "RPP",
+      "values": [
+        -24.999967,
+        25.000033,
+        112.1,
+        122.1,
+        22.0,
+        32.0
+      ]
+    },
+    "si15": {
+      "kind": "RPP",
+      "values": [
+        -24.999967,
+        25.000033,
+        112.6,
+        121.6,
+        22.5,
+        31.5
+      ]
+    },
+    "so16": {
+      "kind": "RPP",
+      "values": [
+        27.000033,
+        33.000033,
+        84.0,
+        90.0,
+        -48.0,
+        22.0
+      ]
+    },
+    "si16": {
+      "kind": "RPP",
+      "values": [
+        27.500033,
+        32.500033,
+        84.5,
+        89.5,
+        -48.0,
+        22.0
+      ]
+    },
+    "so17": {
+      "kind": "RPP",
+      "values": [
+        27.000033,
+        33.000033,
+        41.0,
+        47.0,
+        -48.0,
+        22.0
+      ]
+    },
+    "si17": {
+      "kind": "RPP",
+      "values": [
+        27.500033,
+        32.500033,
+        41.5,
+        46.5,
+        -48.0,
+        22.0
+      ]
+    },
+    "so18": {
+      "kind": "RPP",
+      "values": [
+        -32.999967,
+        -26.999967,
+        84.0,
+        90.0,
+        -48.0,
+        22.0
+      ]
+    },
+    "si18": {
+      "kind": "RPP",
+      "values": [
+        -32.499967,
+        -27.499967,
+        84.5,
+        89.5,
+        -48.0,
+        22.0
+      ]
+    },
+    "so19": {
+      "kind": "RPP",
+      "values": [
+        -32.999967,
+        -26.999967,
+        41.0,
+        47.0,
+        -48.0,
+        22.0
+      ]
+    },
+    "si19": {
+      "kind": "RPP",
+      "values": [
+        -32.499967,
+        -27.499967,
+        41.5,
+        46.5,
+        -48.0,
+        22.0
+      ]
+    },
+    "so20": {
+      "kind": "RPP",
+      "values": [
+        -11.499967,
+        11.500033,
+        129.7,
+        131.7,
+        -18.27,
+        -4.27
+      ]
+    },
+    "so21": {
+      "kind": "RPP",
+      "values": [
+        -26.999967,
+        27.000033,
+        84.0,
+        90.0,
+        -31.0,
+        -25.0
+      ]
+    },
+    "si21": {
+      "kind": "RPP",
+      "values": [
+        -26.999967,
+        27.000033,
+        84.5,
+        89.5,
+        -30.5,
+        -25.5
+      ]
+    },
+    "so22": {
+      "kind": "RPP",
+      "values": [
+        -26.999967,
+        27.000033,
+        84.0,
+        90.0,
+        -1.0,
+        5.0
+      ]
+    },
+    "si22": {
+      "kind": "RPP",
+      "values": [
+        -26.999967,
+        27.000033,
+        84.5,
+        89.5,
+        -0.5,
+        4.5
+      ]
+    },
+    "so23": {
+      "kind": "RPP",
+      "values": [
+        -24.999967,
+        25.000033,
+        84.0,
+        90.0,
+        24.0,
+        30.0
+      ]
+    },
+    "si23": {
+      "kind": "RPP",
+      "values": [
+        -24.999967,
+        25.000033,
+        84.5,
+        89.5,
+        24.5,
+        29.5
+      ]
+    },
+    "so24": {
+      "kind": "RPP",
+      "values": [
+        -24.999967,
+        25.000033,
+        84.0,
+        90.0,
+        -56.0,
+        -50.0
+      ]
+    },
+    "si24": {
+      "kind": "RPP",
+      "values": [
+        -24.999967,
+        25.000033,
+        84.5,
+        89.5,
+        -55.5,
+        -50.5
+      ]
+    },
+    "so25": {
+      "kind": "RPP",
+      "values": [
+        -24.999967,
+        25.000033,
+        41.0,
+        47.0,
+        24.0,
+        30.0
+      ]
+    },
+    "si25": {
+      "kind": "RPP",
+      "values": [
+        -24.999967,
+        25.000033,
+        41.5,
+        46.5,
+        24.5,
+        29.5
+      ]
+    },
+    "so26": {
+      "kind": "RPP",
+      "values": [
+        -24.999967,
+        25.000033,
+        41.0,
+        47.0,
+        -56.0,
+        -50.0
+      ]
+    },
+    "si26": {
+      "kind": "RPP",
+      "values": [
+        -24.999967,
+        25.000033,
+        41.5,
+        46.5,
+        -55.5,
+        -50.5
+      ]
+    },
+    "so27": {
+      "kind": "RPP",
+      "values": [
+        -27.499967,
+        27.500033,
+        146.6,
+        151.6,
+        -15.8,
+        -10.8
+      ]
+    },
+    "si27": {
+      "kind": "RPP",
+      "values": [
+        -27.499967,
+        27.500033,
+        147.1,
+        151.1,
+        -15.3,
+        -11.3
+      ]
+    },
+    "so28": {
+      "kind": "RPP",
+      "values": [
+        27.500033,
+        32.500033,
+        129.1,
+        146.6,
+        -45.8,
+        -40.8
+      ]
+    },
+    "si28": {
+      "kind": "RPP",
+      "values": [
+        28.000033,
+        32.000033,
+        129.1,
+        146.6,
+        -45.3,
+        -41.3
+      ]
+    },
+    "so29": {
+      "kind": "RPP",
+      "values": [
+        -32.499967,
+        -27.499967,
+        129.1,
+        146.6,
+        -45.8,
+        -40.8
+      ]
+    },
+    "si29": {
+      "kind": "RPP",
+      "values": [
+        -31.999967,
+        -27.999967,
+        129.1,
+        146.6,
+        -45.3,
+        -41.3
+      ]
+    },
+    "so30": {
+      "kind": "RPP",
+      "values": [
+        27.500033,
+        32.500033,
+        129.1,
+        146.6,
+        14.2,
+        19.2
+      ]
+    },
+    "si30": {
+      "kind": "RPP",
+      "values": [
+        28.000033,
+        32.000033,
+        129.1,
+        146.6,
+        14.7,
+        18.7
+      ]
+    },
+    "so31": {
+      "kind": "RPP",
+      "values": [
+        -32.499967,
+        -27.499967,
+        129.1,
+        146.6,
+        14.2,
+        19.2
+      ]
+    },
+    "si31": {
+      "kind": "RPP",
+      "values": [
+        -31.999967,
+        -27.999967,
+        129.1,
+        146.6,
+        14.7,
+        18.7
+      ]
+    },
+    "so32": {
+      "kind": "RPP",
+      "values": [
+        -4.999967,
+        5.000033,
+        131.7,
+        132.7,
+        -17.27,
+        -5.27
+      ]
+    },
+    "adj0": {
+      "kind": "RCC",
+      "values": [
+        -30,
+        123.1,
+        -43.3,
+        0,
+        4.5,
+        0,
+        0.8
+      ]
+    },
+    "adj1": {
+      "kind": "RCC",
+      "values": [
+        30,
+        123.1,
+        -43.3,
+        0,
+        4.5,
+        0,
+        0.8
+      ]
+    },
+    "adj2": {
+      "kind": "RCC",
+      "values": [
+        -30,
+        123.1,
+        16.7,
+        0,
+        4.5,
+        0,
+        0.8
+      ]
+    },
+    "adj3": {
+      "kind": "RCC",
+      "values": [
+        30,
+        123.1,
+        16.7,
+        0,
+        4.5,
+        0,
+        0.8
+      ]
+    },
+    "foot0": {
+      "kind": "RCC",
+      "values": [
+        -30,
+        0.2,
+        -53,
+        0,
+        5.8,
+        0,
+        1.5
+      ]
+    },
+    "base0": {
+      "kind": "RPP",
+      "values": [
+        -36,
+        -24,
+        0,
+        0.2,
+        -59,
+        -47
+      ]
+    },
+    "foot1": {
+      "kind": "RCC",
+      "values": [
+        30,
+        0.2,
+        -53,
+        0,
+        5.8,
+        0,
+        1.5
+      ]
+    },
+    "base1": {
+      "kind": "RPP",
+      "values": [
+        24,
+        36,
+        0,
+        0.2,
+        -59,
+        -47
+      ]
+    },
+    "foot2": {
+      "kind": "RCC",
+      "values": [
+        -30,
+        0.2,
+        27,
+        0,
+        5.8,
+        0,
+        1.5
+      ]
+    },
+    "base2": {
+      "kind": "RPP",
+      "values": [
+        -36,
+        -24,
+        0,
+        0.2,
+        21,
+        33
+      ]
+    },
+    "foot3": {
+      "kind": "RCC",
+      "values": [
+        30,
+        0.2,
+        27,
+        0,
+        5.8,
+        0,
+        1.5
+      ]
+    },
+    "base3": {
+      "kind": "RPP",
+      "values": [
+        24,
+        36,
+        0,
+        0.2,
+        21,
+        33
+      ]
+    },
+    "sup0": {
+      "kind": "RPP",
+      "values": [
+        -4.999967,
+        -3.999967,
+        132.7,
+        136.7,
+        -17.27,
+        -5.27
+      ]
+    },
+    "sup1": {
+      "kind": "RPP",
+      "values": [
+        4.000033,
+        5.000033,
+        132.7,
+        136.7,
+        -17.27,
+        -5.27
+      ]
+    },
+    "sup2": {
+      "kind": "RPP",
+      "values": [
+        -9.499967,
+        -7.499967,
+        126.1,
+        129.7,
+        -16.77,
+        -14.77
+      ]
+    },
+    "sup3": {
+      "kind": "RPP",
+      "values": [
+        7.500033,
+        9.500033,
+        126.1,
+        129.7,
+        -7.77,
+        -5.77
+      ]
+    }
+  },
+  "regions": [
+    {
+      "name": "BLKHOLE",
+      "material": "BLCKHOLE",
+      "terms": [
+        "+black",
+        "-world"
+      ],
+      "note": "Transport termination"
+    },
+    {
+      "name": "DUMP",
+      "material": "COPPER",
+      "terms": [
+        "+cuout",
+        "-cone"
+      ],
+      "note": "STL component 7: fins and screw holes omitted"
+    },
+    {
+      "name": "DUMPV0",
+      "material": "VACUUM",
+      "terms": [
+        "+cuout",
+        "+cone"
+      ],
+      "note": "Cavity of DUMP"
+    },
+    {
+      "name": "CULIP",
+      "material": "COPPER",
+      "terms": [
+        "+lipout",
+        "-lipin"
+      ],
+      "note": "Copper entrance lip"
+    },
+    {
+      "name": "CULIPV0",
+      "material": "VACUUM",
+      "terms": [
+        "+lipout",
+        "+lipin"
+      ],
+      "note": "Cavity of CULIP"
+    },
+    {
+      "name": "PIPE00",
+      "material": "IRON",
+      "terms": [
+        "+po00",
+        "-pi00"
+      ],
+      "note": "Smoothed beam pipe / flange"
+    },
+    {
+      "name": "PIPE00V0",
+      "material": "VACUUM",
+      "terms": [
+        "+po00",
+        "+pi00"
+      ],
+      "note": "Cavity of PIPE00"
+    },
+    {
+      "name": "PIPE01",
+      "material": "IRON",
+      "terms": [
+        "+po01",
+        "-pi01"
+      ],
+      "note": "Smoothed beam pipe / flange"
+    },
+    {
+      "name": "PIPE01V0",
+      "material": "VACUUM",
+      "terms": [
+        "+po01",
+        "+pi01"
+      ],
+      "note": "Cavity of PIPE01"
+    },
+    {
+      "name": "PIPE02",
+      "material": "IRON",
+      "terms": [
+        "+po02",
+        "-pi02",
+        "-portin"
+      ],
+      "note": "Smoothed beam pipe / flange"
+    },
+    {
+      "name": "PIPE02V0",
+      "material": "VACUUM",
+      "terms": [
+        "+po02",
+        "+pi02"
+      ],
+      "note": "Cavity of PIPE02"
+    },
+    {
+      "name": "PIPE02V1",
+      "material": "VACUUM",
+      "terms": [
+        "+po02",
+        "+portin",
+        "-pi02"
+      ],
+      "note": "Cavity of PIPE02"
+    },
+    {
+      "name": "PIPE03",
+      "material": "IRON",
+      "terms": [
+        "+po03",
+        "-pi03"
+      ],
+      "note": "Smoothed beam pipe / flange"
+    },
+    {
+      "name": "PIPE03V0",
+      "material": "VACUUM",
+      "terms": [
+        "+po03",
+        "+pi03"
+      ],
+      "note": "Cavity of PIPE03"
+    },
+    {
+      "name": "PIPE04",
+      "material": "IRON",
+      "terms": [
+        "+po04",
+        "-pi04"
+      ],
+      "note": "Smoothed beam pipe / flange"
+    },
+    {
+      "name": "PIPE04V0",
+      "material": "VACUUM",
+      "terms": [
+        "+po04",
+        "+pi04"
+      ],
+      "note": "Cavity of PIPE04"
+    },
+    {
+      "name": "PIPE05",
+      "material": "IRON",
+      "terms": [
+        "+po05",
+        "-pi05"
+      ],
+      "note": "Smoothed beam pipe / flange"
+    },
+    {
+      "name": "PIPE05V0",
+      "material": "VACUUM",
+      "terms": [
+        "+po05",
+        "+pi05"
+      ],
+      "note": "Cavity of PIPE05"
+    },
+    {
+      "name": "PIPE06",
+      "material": "IRON",
+      "terms": [
+        "+po06",
+        "-pi06"
+      ],
+      "note": "Smoothed beam pipe / flange"
+    },
+    {
+      "name": "PIPE06V0",
+      "material": "VACUUM",
+      "terms": [
+        "+po06",
+        "+pi06"
+      ],
+      "note": "Cavity of PIPE06"
+    },
+    {
+      "name": "PIPE07",
+      "material": "IRON",
+      "terms": [
+        "+po07",
+        "-pi07"
+      ],
+      "note": "Smoothed beam pipe / flange"
+    },
+    {
+      "name": "PIPE07V0",
+      "material": "VACUUM",
+      "terms": [
+        "+po07",
+        "+pi07"
+      ],
+      "note": "Cavity of PIPE07"
+    },
+    {
+      "name": "PIPE08",
+      "material": "IRON",
+      "terms": [
+        "+po08",
+        "-pi08"
+      ],
+      "note": "Smoothed beam pipe / flange"
+    },
+    {
+      "name": "PIPE08V0",
+      "material": "VACUUM",
+      "terms": [
+        "+po08",
+        "+pi08"
+      ],
+      "note": "Cavity of PIPE08"
+    },
+    {
+      "name": "PIPE09",
+      "material": "IRON",
+      "terms": [
+        "+po09",
+        "-pi09"
+      ],
+      "note": "Smoothed beam pipe / flange"
+    },
+    {
+      "name": "PIPE09V0",
+      "material": "VACUUM",
+      "terms": [
+        "+po09",
+        "+pi09"
+      ],
+      "note": "Cavity of PIPE09"
+    },
+    {
+      "name": "PIPE10",
+      "material": "IRON",
+      "terms": [
+        "+po10",
+        "-pi10"
+      ],
+      "note": "Smoothed beam pipe / flange"
+    },
+    {
+      "name": "PIPE10V0",
+      "material": "VACUUM",
+      "terms": [
+        "+po10",
+        "+pi10"
+      ],
+      "note": "Cavity of PIPE10"
+    },
+    {
+      "name": "PIPE11",
+      "material": "IRON",
+      "terms": [
+        "+po11",
+        "-pi11"
+      ],
+      "note": "Smoothed beam pipe / flange"
+    },
+    {
+      "name": "PIPE11V0",
+      "material": "VACUUM",
+      "terms": [
+        "+po11",
+        "+pi11"
+      ],
+      "note": "Cavity of PIPE11"
+    },
+    {
+      "name": "PORT",
+      "material": "IRON",
+      "terms": [
+        "+portout",
+        "-po02",
+        "-portin"
+      ],
+      "note": "Vertical T-port, simplified"
+    },
+    {
+      "name": "PORTV0",
+      "material": "VACUUM",
+      "terms": [
+        "+portout",
+        "+portin",
+        "-po02"
+      ],
+      "note": "Cavity of PORT"
+    },
+    {
+      "name": "PORTFL",
+      "material": "IRON",
+      "terms": [
+        "+portfl",
+        "-portin"
+      ],
+      "note": "T-port flange"
+    },
+    {
+      "name": "PORTFLV0",
+      "material": "VACUUM",
+      "terms": [
+        "+portfl",
+        "+portin"
+      ],
+      "note": "Cavity of PORTFL"
+    },
+    {
+      "name": "PORTCAP",
+      "material": "IRON",
+      "terms": [
+        "+portcap"
+      ],
+      "note": "Simplified closed port cap"
+    },
+    {
+      "name": "STR00",
+      "material": "IRON",
+      "terms": [
+        "+so00"
+      ],
+      "note": "STL component 0; squared corners"
+    },
+    {
+      "name": "STR01",
+      "material": "IRON",
+      "terms": [
+        "+so01"
+      ],
+      "note": "STL component 1; squared corners"
+    },
+    {
+      "name": "STR02",
+      "material": "IRON",
+      "terms": [
+        "+so02"
+      ],
+      "note": "STL component 2; squared corners"
+    },
+    {
+      "name": "STR03",
+      "material": "IRON",
+      "terms": [
+        "+so03",
+        "-si03"
+      ],
+      "note": "STL component 3; squared corners"
+    },
+    {
+      "name": "STR03V0",
+      "material": "AIR",
+      "terms": [
+        "+so03",
+        "+si03"
+      ],
+      "note": "Cavity of STR03"
+    },
+    {
+      "name": "STR04",
+      "material": "IRON",
+      "terms": [
+        "+so04",
+        "-si04"
+      ],
+      "note": "STL component 4; squared corners"
+    },
+    {
+      "name": "STR04V0",
+      "material": "AIR",
+      "terms": [
+        "+so04",
+        "+si04"
+      ],
+      "note": "Cavity of STR04"
+    },
+    {
+      "name": "STR05",
+      "material": "IRON",
+      "terms": [
+        "+so05",
+        "-si05"
+      ],
+      "note": "STL component 5; squared corners"
+    },
+    {
+      "name": "STR05V0",
+      "material": "AIR",
+      "terms": [
+        "+so05",
+        "+si05"
+      ],
+      "note": "Cavity of STR05"
+    },
+    {
+      "name": "STR06",
+      "material": "IRON",
+      "terms": [
+        "+so06",
+        "-si06"
+      ],
+      "note": "STL component 6; squared corners"
+    },
+    {
+      "name": "STR06V0",
+      "material": "AIR",
+      "terms": [
+        "+so06",
+        "+si06"
+      ],
+      "note": "Cavity of STR06"
+    },
+    {
+      "name": "STR07",
+      "material": "IRON",
+      "terms": [
+        "+so07",
+        "-si07"
+      ],
+      "note": "STL component 8; squared corners"
+    },
+    {
+      "name": "STR07V0",
+      "material": "AIR",
+      "terms": [
+        "+so07",
+        "+si07"
+      ],
+      "note": "Cavity of STR07"
+    },
+    {
+      "name": "STR08",
+      "material": "IRON",
+      "terms": [
+        "+so08",
+        "-si08"
+      ],
+      "note": "STL component 9; squared corners"
+    },
+    {
+      "name": "STR08V0",
+      "material": "AIR",
+      "terms": [
+        "+so08",
+        "+si08"
+      ],
+      "note": "Cavity of STR08"
+    },
+    {
+      "name": "STR09",
+      "material": "IRON",
+      "terms": [
+        "+so09",
+        "-so07",
+        "-so08",
+        "-si09"
+      ],
+      "note": "STL component 10; squared corners"
+    },
+    {
+      "name": "STR09V0",
+      "material": "AIR",
+      "terms": [
+        "+so09",
+        "+si09",
+        "-so07",
+        "-so08"
+      ],
+      "note": "Cavity of STR09"
+    },
+    {
+      "name": "STR10",
+      "material": "IRON",
+      "terms": [
+        "+so10",
+        "-so07",
+        "-so08",
+        "-si10"
+      ],
+      "note": "STL component 11; squared corners"
+    },
+    {
+      "name": "STR10V0",
+      "material": "AIR",
+      "terms": [
+        "+so10",
+        "+si10",
+        "-so07",
+        "-so08"
+      ],
+      "note": "Cavity of STR10"
+    },
+    {
+      "name": "STR11",
+      "material": "IRON",
+      "terms": [
+        "+so11"
+      ],
+      "note": "STL component 12; squared corners"
+    },
+    {
+      "name": "STR12",
+      "material": "IRON",
+      "terms": [
+        "+so12",
+        "-si12"
+      ],
+      "note": "STL component 17; squared corners"
+    },
+    {
+      "name": "STR12V0",
+      "material": "AIR",
+      "terms": [
+        "+so12",
+        "+si12"
+      ],
+      "note": "Cavity of STR12"
+    },
+    {
+      "name": "STR13",
+      "material": "IRON",
+      "terms": [
+        "+so13",
+        "-si13"
+      ],
+      "note": "STL component 18; squared corners"
+    },
+    {
+      "name": "STR13V0",
+      "material": "AIR",
+      "terms": [
+        "+so13",
+        "+si13"
+      ],
+      "note": "Cavity of STR13"
+    },
+    {
+      "name": "STR14",
+      "material": "IRON",
+      "terms": [
+        "+so14",
+        "-si14"
+      ],
+      "note": "STL component 19; squared corners"
+    },
+    {
+      "name": "STR14V0",
+      "material": "AIR",
+      "terms": [
+        "+so14",
+        "+si14"
+      ],
+      "note": "Cavity of STR14"
+    },
+    {
+      "name": "STR15",
+      "material": "IRON",
+      "terms": [
+        "+so15",
+        "-si15"
+      ],
+      "note": "STL component 20; squared corners"
+    },
+    {
+      "name": "STR15V0",
+      "material": "AIR",
+      "terms": [
+        "+so15",
+        "+si15"
+      ],
+      "note": "Cavity of STR15"
+    },
+    {
+      "name": "STR16",
+      "material": "IRON",
+      "terms": [
+        "+so16",
+        "-si16"
+      ],
+      "note": "STL component 21; squared corners"
+    },
+    {
+      "name": "STR16V0",
+      "material": "AIR",
+      "terms": [
+        "+so16",
+        "+si16"
+      ],
+      "note": "Cavity of STR16"
+    },
+    {
+      "name": "STR17",
+      "material": "IRON",
+      "terms": [
+        "+so17",
+        "-si17"
+      ],
+      "note": "STL component 22; squared corners"
+    },
+    {
+      "name": "STR17V0",
+      "material": "AIR",
+      "terms": [
+        "+so17",
+        "+si17"
+      ],
+      "note": "Cavity of STR17"
+    },
+    {
+      "name": "STR18",
+      "material": "IRON",
+      "terms": [
+        "+so18",
+        "-si18"
+      ],
+      "note": "STL component 23; squared corners"
+    },
+    {
+      "name": "STR18V0",
+      "material": "AIR",
+      "terms": [
+        "+so18",
+        "+si18"
+      ],
+      "note": "Cavity of STR18"
+    },
+    {
+      "name": "STR19",
+      "material": "IRON",
+      "terms": [
+        "+so19",
+        "-si19"
+      ],
+      "note": "STL component 24; squared corners"
+    },
+    {
+      "name": "STR19V0",
+      "material": "AIR",
+      "terms": [
+        "+so19",
+        "+si19"
+      ],
+      "note": "Cavity of STR19"
+    },
+    {
+      "name": "STR20",
+      "material": "IRON",
+      "terms": [
+        "+so20"
+      ],
+      "note": "STL component 25; squared corners"
+    },
+    {
+      "name": "STR21",
+      "material": "IRON",
+      "terms": [
+        "+so21",
+        "-si21"
+      ],
+      "note": "STL component 26; squared corners"
+    },
+    {
+      "name": "STR21V0",
+      "material": "AIR",
+      "terms": [
+        "+so21",
+        "+si21"
+      ],
+      "note": "Cavity of STR21"
+    },
+    {
+      "name": "STR22",
+      "material": "IRON",
+      "terms": [
+        "+so22",
+        "-si22"
+      ],
+      "note": "STL component 27; squared corners"
+    },
+    {
+      "name": "STR22V0",
+      "material": "AIR",
+      "terms": [
+        "+so22",
+        "+si22"
+      ],
+      "note": "Cavity of STR22"
+    },
+    {
+      "name": "STR23",
+      "material": "IRON",
+      "terms": [
+        "+so23",
+        "-si23"
+      ],
+      "note": "STL component 28; squared corners"
+    },
+    {
+      "name": "STR23V0",
+      "material": "AIR",
+      "terms": [
+        "+so23",
+        "+si23"
+      ],
+      "note": "Cavity of STR23"
+    },
+    {
+      "name": "STR24",
+      "material": "IRON",
+      "terms": [
+        "+so24",
+        "-si24"
+      ],
+      "note": "STL component 29; squared corners"
+    },
+    {
+      "name": "STR24V0",
+      "material": "AIR",
+      "terms": [
+        "+so24",
+        "+si24"
+      ],
+      "note": "Cavity of STR24"
+    },
+    {
+      "name": "STR25",
+      "material": "IRON",
+      "terms": [
+        "+so25",
+        "-si25"
+      ],
+      "note": "STL component 30; squared corners"
+    },
+    {
+      "name": "STR25V0",
+      "material": "AIR",
+      "terms": [
+        "+so25",
+        "+si25"
+      ],
+      "note": "Cavity of STR25"
+    },
+    {
+      "name": "STR26",
+      "material": "IRON",
+      "terms": [
+        "+so26",
+        "-si26"
+      ],
+      "note": "STL component 31; squared corners"
+    },
+    {
+      "name": "STR26V0",
+      "material": "AIR",
+      "terms": [
+        "+so26",
+        "+si26"
+      ],
+      "note": "Cavity of STR26"
+    },
+    {
+      "name": "STR27",
+      "material": "IRON",
+      "terms": [
+        "+so27",
+        "-si27"
+      ],
+      "note": "STL component 32; squared corners"
+    },
+    {
+      "name": "STR27V0",
+      "material": "AIR",
+      "terms": [
+        "+so27",
+        "+si27"
+      ],
+      "note": "Cavity of STR27"
+    },
+    {
+      "name": "STR28",
+      "material": "IRON",
+      "terms": [
+        "+so28",
+        "-si28"
+      ],
+      "note": "STL component 51; squared corners"
+    },
+    {
+      "name": "STR28V0",
+      "material": "AIR",
+      "terms": [
+        "+so28",
+        "+si28"
+      ],
+      "note": "Cavity of STR28"
+    },
+    {
+      "name": "STR29",
+      "material": "IRON",
+      "terms": [
+        "+so29",
+        "-si29"
+      ],
+      "note": "STL component 52; squared corners"
+    },
+    {
+      "name": "STR29V0",
+      "material": "AIR",
+      "terms": [
+        "+so29",
+        "+si29"
+      ],
+      "note": "Cavity of STR29"
+    },
+    {
+      "name": "STR30",
+      "material": "IRON",
+      "terms": [
+        "+so30",
+        "-si30"
+      ],
+      "note": "STL component 53; squared corners"
+    },
+    {
+      "name": "STR30V0",
+      "material": "AIR",
+      "terms": [
+        "+so30",
+        "+si30"
+      ],
+      "note": "Cavity of STR30"
+    },
+    {
+      "name": "STR31",
+      "material": "IRON",
+      "terms": [
+        "+so31",
+        "-si31"
+      ],
+      "note": "STL component 54; squared corners"
+    },
+    {
+      "name": "STR31V0",
+      "material": "AIR",
+      "terms": [
+        "+so31",
+        "+si31"
+      ],
+      "note": "Cavity of STR31"
+    },
+    {
+      "name": "STR32",
+      "material": "IRON",
+      "terms": [
+        "+so32"
+      ],
+      "note": "STL component 84; squared corners"
+    },
+    {
+      "name": "ADJ0",
+      "material": "IRON",
+      "terms": [
+        "+adj0"
+      ],
+      "note": "Upper frame adjustment screw, simplified"
+    },
+    {
+      "name": "ADJ1",
+      "material": "IRON",
+      "terms": [
+        "+adj1"
+      ],
+      "note": "Upper frame adjustment screw, simplified"
+    },
+    {
+      "name": "ADJ2",
+      "material": "IRON",
+      "terms": [
+        "+adj2"
+      ],
+      "note": "Upper frame adjustment screw, simplified"
+    },
+    {
+      "name": "ADJ3",
+      "material": "IRON",
+      "terms": [
+        "+adj3"
+      ],
+      "note": "Upper frame adjustment screw, simplified"
+    },
+    {
+      "name": "FOOT0",
+      "material": "IRON",
+      "terms": [
+        "+foot0"
+      ],
+      "note": "Table leveling foot, thread omitted"
+    },
+    {
+      "name": "BASE0",
+      "material": "IRON",
+      "terms": [
+        "+base0"
+      ],
+      "note": "Foot base plate"
+    },
+    {
+      "name": "FOOT1",
+      "material": "IRON",
+      "terms": [
+        "+foot1"
+      ],
+      "note": "Table leveling foot, thread omitted"
+    },
+    {
+      "name": "BASE1",
+      "material": "IRON",
+      "terms": [
+        "+base1"
+      ],
+      "note": "Foot base plate"
+    },
+    {
+      "name": "FOOT2",
+      "material": "IRON",
+      "terms": [
+        "+foot2"
+      ],
+      "note": "Table leveling foot, thread omitted"
+    },
+    {
+      "name": "BASE2",
+      "material": "IRON",
+      "terms": [
+        "+base2"
+      ],
+      "note": "Foot base plate"
+    },
+    {
+      "name": "FOOT3",
+      "material": "IRON",
+      "terms": [
+        "+foot3"
+      ],
+      "note": "Table leveling foot, thread omitted"
+    },
+    {
+      "name": "BASE3",
+      "material": "IRON",
+      "terms": [
+        "+base3"
+      ],
+      "note": "Foot base plate"
+    },
+    {
+      "name": "SUP0",
+      "material": "IRON",
+      "terms": [
+        "+sup0",
+        "-po09",
+        "-po11"
+      ],
+      "note": "Simplified beam-pipe support"
+    },
+    {
+      "name": "SUP1",
+      "material": "IRON",
+      "terms": [
+        "+sup1",
+        "-po09",
+        "-po11"
+      ],
+      "note": "Simplified beam-pipe support"
+    },
+    {
+      "name": "SUP2",
+      "material": "IRON",
+      "terms": [
+        "+sup2"
+      ],
+      "note": "Simplified beam-pipe support"
+    },
+    {
+      "name": "SUP3",
+      "material": "IRON",
+      "terms": [
+        "+sup3"
+      ],
+      "note": "Simplified beam-pipe support"
+    },
+    {
+      "name": "AIR",
+      "material": "AIR",
+      "terms": [
+        "+world",
+        "-cuout",
+        "-lipout",
+        "-po00",
+        "-po01",
+        "-po02",
+        "-po03",
+        "-po04",
+        "-po05",
+        "-po06",
+        "-po07",
+        "-po08",
+        "-po09",
+        "-po10",
+        "-po11",
+        "-portout",
+        "-portfl",
+        "-portcap",
+        "-so00",
+        "-so01",
+        "-so02",
+        "-so03",
+        "-so04",
+        "-so05",
+        "-so06",
+        "-so07",
+        "-so08",
+        "-so09",
+        "-so10",
+        "-so11",
+        "-so12",
+        "-so13",
+        "-so14",
+        "-so15",
+        "-so16",
+        "-so17",
+        "-so18",
+        "-so19",
+        "-so20",
+        "-so21",
+        "-so22",
+        "-so23",
+        "-so24",
+        "-so25",
+        "-so26",
+        "-so27",
+        "-so28",
+        "-so29",
+        "-so30",
+        "-so31",
+        "-so32",
+        "-adj0",
+        "-adj1",
+        "-adj2",
+        "-adj3",
+        "-foot0",
+        "-base0",
+        "-foot1",
+        "-base1",
+        "-foot2",
+        "-base2",
+        "-foot3",
+        "-base3",
+        "-sup0",
+        "-sup1",
+        "-sup2",
+        "-sup3"
+      ],
+      "note": "Ambient air including omitted details"
+    }
+  ],
+  "objects": [
+    {
+      "name": "DUMP",
+      "outer": "cuout",
+      "holes": [
+        "cone"
+      ],
+      "material": "COPPER",
+      "note": "STL component 7: fins and screw holes omitted"
+    },
+    {
+      "name": "CULIP",
+      "outer": "lipout",
+      "holes": [
+        "lipin"
+      ],
+      "material": "COPPER",
+      "note": "Copper entrance lip"
+    },
+    {
+      "name": "PIPE00",
+      "outer": "po00",
+      "holes": [
+        "pi00"
+      ],
+      "material": "IRON",
+      "note": "Smoothed beam pipe / flange"
+    },
+    {
+      "name": "PIPE01",
+      "outer": "po01",
+      "holes": [
+        "pi01"
+      ],
+      "material": "IRON",
+      "note": "Smoothed beam pipe / flange"
+    },
+    {
+      "name": "PIPE02",
+      "outer": "po02",
+      "holes": [
+        "pi02",
+        "portin"
+      ],
+      "material": "IRON",
+      "note": "Smoothed beam pipe / flange"
+    },
+    {
+      "name": "PIPE03",
+      "outer": "po03",
+      "holes": [
+        "pi03"
+      ],
+      "material": "IRON",
+      "note": "Smoothed beam pipe / flange"
+    },
+    {
+      "name": "PIPE04",
+      "outer": "po04",
+      "holes": [
+        "pi04"
+      ],
+      "material": "IRON",
+      "note": "Smoothed beam pipe / flange"
+    },
+    {
+      "name": "PIPE05",
+      "outer": "po05",
+      "holes": [
+        "pi05"
+      ],
+      "material": "IRON",
+      "note": "Smoothed beam pipe / flange"
+    },
+    {
+      "name": "PIPE06",
+      "outer": "po06",
+      "holes": [
+        "pi06"
+      ],
+      "material": "IRON",
+      "note": "Smoothed beam pipe / flange"
+    },
+    {
+      "name": "PIPE07",
+      "outer": "po07",
+      "holes": [
+        "pi07"
+      ],
+      "material": "IRON",
+      "note": "Smoothed beam pipe / flange"
+    },
+    {
+      "name": "PIPE08",
+      "outer": "po08",
+      "holes": [
+        "pi08"
+      ],
+      "material": "IRON",
+      "note": "Smoothed beam pipe / flange"
+    },
+    {
+      "name": "PIPE09",
+      "outer": "po09",
+      "holes": [
+        "pi09"
+      ],
+      "material": "IRON",
+      "note": "Smoothed beam pipe / flange"
+    },
+    {
+      "name": "PIPE10",
+      "outer": "po10",
+      "holes": [
+        "pi10"
+      ],
+      "material": "IRON",
+      "note": "Smoothed beam pipe / flange"
+    },
+    {
+      "name": "PIPE11",
+      "outer": "po11",
+      "holes": [
+        "pi11"
+      ],
+      "material": "IRON",
+      "note": "Smoothed beam pipe / flange"
+    },
+    {
+      "name": "PORT",
+      "outer": "portout",
+      "holes": [
+        "portin"
+      ],
+      "material": "IRON",
+      "note": "Vertical T-port, simplified"
+    },
+    {
+      "name": "PORTFL",
+      "outer": "portfl",
+      "holes": [
+        "portin"
+      ],
+      "material": "IRON",
+      "note": "T-port flange"
+    },
+    {
+      "name": "PORTCAP",
+      "outer": "portcap",
+      "holes": [],
+      "material": "IRON",
+      "note": "Simplified closed port cap"
+    },
+    {
+      "name": "STR00",
+      "outer": "so00",
+      "holes": [],
+      "material": "IRON",
+      "note": "STL component 0; squared corners"
+    },
+    {
+      "name": "STR01",
+      "outer": "so01",
+      "holes": [],
+      "material": "IRON",
+      "note": "STL component 1; squared corners"
+    },
+    {
+      "name": "STR02",
+      "outer": "so02",
+      "holes": [],
+      "material": "IRON",
+      "note": "STL component 2; squared corners"
+    },
+    {
+      "name": "STR03",
+      "outer": "so03",
+      "holes": [
+        "si03"
+      ],
+      "material": "IRON",
+      "note": "STL component 3; squared corners"
+    },
+    {
+      "name": "STR04",
+      "outer": "so04",
+      "holes": [
+        "si04"
+      ],
+      "material": "IRON",
+      "note": "STL component 4; squared corners"
+    },
+    {
+      "name": "STR05",
+      "outer": "so05",
+      "holes": [
+        "si05"
+      ],
+      "material": "IRON",
+      "note": "STL component 5; squared corners"
+    },
+    {
+      "name": "STR06",
+      "outer": "so06",
+      "holes": [
+        "si06"
+      ],
+      "material": "IRON",
+      "note": "STL component 6; squared corners"
+    },
+    {
+      "name": "STR07",
+      "outer": "so07",
+      "holes": [
+        "si07"
+      ],
+      "material": "IRON",
+      "note": "STL component 8; squared corners"
+    },
+    {
+      "name": "STR08",
+      "outer": "so08",
+      "holes": [
+        "si08"
+      ],
+      "material": "IRON",
+      "note": "STL component 9; squared corners"
+    },
+    {
+      "name": "STR09",
+      "outer": "so09",
+      "holes": [
+        "si09"
+      ],
+      "material": "IRON",
+      "note": "STL component 10; squared corners"
+    },
+    {
+      "name": "STR10",
+      "outer": "so10",
+      "holes": [
+        "si10"
+      ],
+      "material": "IRON",
+      "note": "STL component 11; squared corners"
+    },
+    {
+      "name": "STR11",
+      "outer": "so11",
+      "holes": [],
+      "material": "IRON",
+      "note": "STL component 12; squared corners"
+    },
+    {
+      "name": "STR12",
+      "outer": "so12",
+      "holes": [
+        "si12"
+      ],
+      "material": "IRON",
+      "note": "STL component 17; squared corners"
+    },
+    {
+      "name": "STR13",
+      "outer": "so13",
+      "holes": [
+        "si13"
+      ],
+      "material": "IRON",
+      "note": "STL component 18; squared corners"
+    },
+    {
+      "name": "STR14",
+      "outer": "so14",
+      "holes": [
+        "si14"
+      ],
+      "material": "IRON",
+      "note": "STL component 19; squared corners"
+    },
+    {
+      "name": "STR15",
+      "outer": "so15",
+      "holes": [
+        "si15"
+      ],
+      "material": "IRON",
+      "note": "STL component 20; squared corners"
+    },
+    {
+      "name": "STR16",
+      "outer": "so16",
+      "holes": [
+        "si16"
+      ],
+      "material": "IRON",
+      "note": "STL component 21; squared corners"
+    },
+    {
+      "name": "STR17",
+      "outer": "so17",
+      "holes": [
+        "si17"
+      ],
+      "material": "IRON",
+      "note": "STL component 22; squared corners"
+    },
+    {
+      "name": "STR18",
+      "outer": "so18",
+      "holes": [
+        "si18"
+      ],
+      "material": "IRON",
+      "note": "STL component 23; squared corners"
+    },
+    {
+      "name": "STR19",
+      "outer": "so19",
+      "holes": [
+        "si19"
+      ],
+      "material": "IRON",
+      "note": "STL component 24; squared corners"
+    },
+    {
+      "name": "STR20",
+      "outer": "so20",
+      "holes": [],
+      "material": "IRON",
+      "note": "STL component 25; squared corners"
+    },
+    {
+      "name": "STR21",
+      "outer": "so21",
+      "holes": [
+        "si21"
+      ],
+      "material": "IRON",
+      "note": "STL component 26; squared corners"
+    },
+    {
+      "name": "STR22",
+      "outer": "so22",
+      "holes": [
+        "si22"
+      ],
+      "material": "IRON",
+      "note": "STL component 27; squared corners"
+    },
+    {
+      "name": "STR23",
+      "outer": "so23",
+      "holes": [
+        "si23"
+      ],
+      "material": "IRON",
+      "note": "STL component 28; squared corners"
+    },
+    {
+      "name": "STR24",
+      "outer": "so24",
+      "holes": [
+        "si24"
+      ],
+      "material": "IRON",
+      "note": "STL component 29; squared corners"
+    },
+    {
+      "name": "STR25",
+      "outer": "so25",
+      "holes": [
+        "si25"
+      ],
+      "material": "IRON",
+      "note": "STL component 30; squared corners"
+    },
+    {
+      "name": "STR26",
+      "outer": "so26",
+      "holes": [
+        "si26"
+      ],
+      "material": "IRON",
+      "note": "STL component 31; squared corners"
+    },
+    {
+      "name": "STR27",
+      "outer": "so27",
+      "holes": [
+        "si27"
+      ],
+      "material": "IRON",
+      "note": "STL component 32; squared corners"
+    },
+    {
+      "name": "STR28",
+      "outer": "so28",
+      "holes": [
+        "si28"
+      ],
+      "material": "IRON",
+      "note": "STL component 51; squared corners"
+    },
+    {
+      "name": "STR29",
+      "outer": "so29",
+      "holes": [
+        "si29"
+      ],
+      "material": "IRON",
+      "note": "STL component 52; squared corners"
+    },
+    {
+      "name": "STR30",
+      "outer": "so30",
+      "holes": [
+        "si30"
+      ],
+      "material": "IRON",
+      "note": "STL component 53; squared corners"
+    },
+    {
+      "name": "STR31",
+      "outer": "so31",
+      "holes": [
+        "si31"
+      ],
+      "material": "IRON",
+      "note": "STL component 54; squared corners"
+    },
+    {
+      "name": "STR32",
+      "outer": "so32",
+      "holes": [],
+      "material": "IRON",
+      "note": "STL component 84; squared corners"
+    },
+    {
+      "name": "ADJ0",
+      "outer": "adj0",
+      "holes": [],
+      "material": "IRON",
+      "note": "Upper frame adjustment screw, simplified"
+    },
+    {
+      "name": "ADJ1",
+      "outer": "adj1",
+      "holes": [],
+      "material": "IRON",
+      "note": "Upper frame adjustment screw, simplified"
+    },
+    {
+      "name": "ADJ2",
+      "outer": "adj2",
+      "holes": [],
+      "material": "IRON",
+      "note": "Upper frame adjustment screw, simplified"
+    },
+    {
+      "name": "ADJ3",
+      "outer": "adj3",
+      "holes": [],
+      "material": "IRON",
+      "note": "Upper frame adjustment screw, simplified"
+    },
+    {
+      "name": "FOOT0",
+      "outer": "foot0",
+      "holes": [],
+      "material": "IRON",
+      "note": "Table leveling foot, thread omitted"
+    },
+    {
+      "name": "BASE0",
+      "outer": "base0",
+      "holes": [],
+      "material": "IRON",
+      "note": "Foot base plate"
+    },
+    {
+      "name": "FOOT1",
+      "outer": "foot1",
+      "holes": [],
+      "material": "IRON",
+      "note": "Table leveling foot, thread omitted"
+    },
+    {
+      "name": "BASE1",
+      "outer": "base1",
+      "holes": [],
+      "material": "IRON",
+      "note": "Foot base plate"
+    },
+    {
+      "name": "FOOT2",
+      "outer": "foot2",
+      "holes": [],
+      "material": "IRON",
+      "note": "Table leveling foot, thread omitted"
+    },
+    {
+      "name": "BASE2",
+      "outer": "base2",
+      "holes": [],
+      "material": "IRON",
+      "note": "Foot base plate"
+    },
+    {
+      "name": "FOOT3",
+      "outer": "foot3",
+      "holes": [],
+      "material": "IRON",
+      "note": "Table leveling foot, thread omitted"
+    },
+    {
+      "name": "BASE3",
+      "outer": "base3",
+      "holes": [],
+      "material": "IRON",
+      "note": "Foot base plate"
+    },
+    {
+      "name": "SUP0",
+      "outer": "sup0",
+      "holes": [],
+      "material": "IRON",
+      "note": "Simplified beam-pipe support"
+    },
+    {
+      "name": "SUP1",
+      "outer": "sup1",
+      "holes": [],
+      "material": "IRON",
+      "note": "Simplified beam-pipe support"
+    },
+    {
+      "name": "SUP2",
+      "outer": "sup2",
+      "holes": [],
+      "material": "IRON",
+      "note": "Simplified beam-pipe support"
+    },
+    {
+      "name": "SUP3",
+      "outer": "sup3",
+      "holes": [],
+      "material": "IRON",
+      "note": "Simplified beam-pipe support"
+    }
+  ]
+}
